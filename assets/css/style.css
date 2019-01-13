@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Staatliches');
+
+
+
+
+
+/*----------------------------Navbar------------------------*/
+
+    
+body{
+   background-color: #eeeeee;
+    
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    float: inherit;
+}
