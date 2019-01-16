@@ -8,13 +8,10 @@
 
     
 body{
-   background-color: #eeeeee;
-  
-}
-
-
-.navbar-brand{
-    font-family: 'Merriweather', serif;
+    background-color: #eeeeee;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .container-fluid {
@@ -22,6 +19,10 @@ body{
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
+}
+
+.navbar-brand{
+    font-family: 'Merriweather', serif;
 }
 
 .navbar-default .navbar-brand {
@@ -106,38 +107,72 @@ body{
  
  .navbar-default .navbar-brand:hover{
     color: rgb(168,168,168);
-    border: 1px solid #000;
 }
 
 /*----------------------------Section------------------------*/
-
+h1{ 
+    color: red;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
 video{
      display: block;
      margin: 60px auto 100px auto;
-     margin-left: auto;
-     margin-right: auto;
      width: 50%;
      height: 300px;
      box-shadow: 0px 0px 51px -9px rgba(0,0,0,0.75);
      background-color: red;
      position: relative ;
      cursor: pointer;
-    
 }
 
-
-h1{ 
-    color: red;
-    font-weight: 700;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-}
 section{
     background: linear-gradient(to bottom, #C5C5C5 0%, #5929A4 50%, #C5C5C5 100%);
 }
 p{
     text-align: center;
     color: red
+}
+/*----------------------------Main------------------------*/
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 14px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+span{
+    display: block;
+    font-weight: bold;
+    font-size: large
+}
+.tikets{
+    text-align: center;
+}
+.tikets a{
+    text-decoration: none;
+}
+
+.text-left{
+    margin-top: 75px;
+    margin-bottom: -50px;
+    color: #000;
+}
+
+hr { 
+    width:100%; height:1px; background: #000 
+}
+.tikets:hover{
+    background-color: red;
+    border-radius: 25%;
 }
 
 /*----------------------------Footer------------------------*/
@@ -146,20 +181,30 @@ p{
 footer {
   background-color:#3d6486;;
   bottom: 0;
-  padding: 20px;
+  height: 130px;
   width: 100%;
   position: relative;
 }
 
-h4 a{
-    color: #fff;
-    font-weight: bold;
-    
+.wrap{
+    margin-top: 35px;
 }
 .footer i{
     padding: 10px;
 }
+    
+h4 a{
+    color: #fff;
+    font-weight: bold;
+}
+
+
 h4 a:hover{
     color: rgb(168,168,168);
     text-decoration: none;
 }
+
+
+
+
+ 
