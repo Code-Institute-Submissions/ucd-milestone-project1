@@ -109,7 +109,8 @@ body{
     color: rgb(168,168,168);
 }
 
-/*----------------------------Section------------------------*/
+
+/*------------------inedex.html (first page)------------------------*/
 h1{ 
     color: red;
     font-weight: 700;
@@ -127,76 +128,14 @@ video{
      position: relative ;
      cursor: pointer;
 }
-
+/* backgound for first page and 'music' page.*/
 section{
      background: linear-gradient(to bottom, #C5C5C5 0%, #5929A4 50%, #C5C5C5 100%);
 }
 
 
 
-p{
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-}
-
-h2{
-    text-align: center;
-    font-weight: bold;
-}
-p{  
-    margin: 50px 25px 50px 25px;
-    word-break: break-all;
-}
-
-/*I attached an other class to 'img-responsive'
-because I want different style than the front image*/
-.songimg{
-    width: 230px;
-    height: 200px;
-    border-radius: 50px 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-}
-
-audio{
-    margin: 10px auto 20px auto;
-    max-width: 230px;
-    border-radius: 30%;
-    display: block;
-}
-.title{
-    margin-bottom: 0;
-    font-style: italic;
-}
-mark{
-    background: linear-gradient(to bottom, #FFFCC4 0%, #9EE8AE 50%, #FFFCC4 100%);
-    border-radius: 40%;
-}
-
-
-
-
-.color-section{
-     background-color: #eeeeee;
-}
-/*----------------------------Article------------------------*/
-
-article{
-    background: linear-gradient(to bottom, #C5C5C5 0%, #5929A4 50%, #C5C5C5 100%);
-}
-.indent{
-    text-indent: 50px;
-}
-
-.bio-img{
-    margin: 20px auto 15px auto;
-    width: 500px;
-    border: 2px solid #000;
-}
-
-/*----------------------------Main------------------------*/
+/*--------------------------Tour Dates-(index1.html)--------------------------*/
 
 .table>tbody>tr>td,
 .table>tbody>tr>th,
@@ -208,6 +147,10 @@ article{
     line-height: 1.42857143;
     vertical-align: middle;
     border-top: 1px solid #ddd;
+}
+
+.tiket-line{
+    text-align: center;
 }
 
 span{
@@ -235,6 +178,116 @@ hr {
     background-color: red;
     border-radius: 25%;
 }
+
+
+/*--------------------Music--index2.html------------------------------*/
+p{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+p{  
+    margin: 50px 25px 50px 25px;
+    word-break: break-all;
+}
+
+
+.songimg{
+    width: 230px;
+    height: 200px;
+    border-radius: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+audio{
+    margin: 10px auto 20px auto;
+    max-width: 230px;
+    border-radius: 30%;
+    display: block;
+}
+.title{
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+mark{
+    background: linear-gradient(to bottom, #FFFCC4 0%, #9EE8AE 50%, #FFFCC4 100%);
+    border-radius: 40%;
+}
+
+
+
+/*--------------------------Biography-(index3.html)--------------------------*/
+
+article{
+    background: linear-gradient(to bottom, #C5C5C5 0%, #5929A4 50%, #C5C5C5 100%);
+}
+.indent{
+    text-indent: 50px;
+}
+
+.bio-img{
+    margin: 20px auto 15px auto;
+    width: 500px;
+    border: 2px solid #000;
+}
+
+
+
+/*-----------------------Contac us--(index4.html)---------------------------*/
+
+.body-color{
+    background-color: #eeeeee;
+}
+
+form{
+    margin: 35px auto 35px auto;
+    width: 50%;
+}
+
+.contact{
+    margin-top: 60px;
+}
+
+.center,
+.center-btn{
+    text-align: center;
+}
+
+.body{
+   margin-bottom: 4%;
+}
+
+.form-control{
+    background-color: #dcdada;
+    color: #fb0000;
+}
+
+.btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    font-weight: bold;
+    border-radius:7px;
+}
+.btn-default:hover{
+    color: green;
+     background: -moz-linear-gradient(top, #9A98CE 0%, #FFFFFF 50%, #A2A2C5 100%);
+     background: -webkit-linear-gradient(top, #9A98CE 0%, #FFFFFF 50%, #A2A2C5 100%);
+     background: linear-gradient(to bottom, #9A98CE 0%, #FFFFFF 50%, #A2A2C5 100%);
+     -webkit-box-shadow: -4px 4px 16px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 4px 16px -4px rgba(0,0,0,0.75);
+     box-shadow: -4px 4px 16px -4px rgba(0,0,0,0.75);
+}
+
+
 
 /*----------------------------Footer------------------------*/
 
