@@ -12,6 +12,7 @@ body{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -322,7 +323,12 @@ h4 a:hover{
     text-decoration: none;
 }
 
+/*-----media queries for icon links under 768px--*/
 
-
-
+@media (max-width: 768px){
+.navbar-right {
+    display: flex;
+    justify-content: center;
+   }
+}
  
